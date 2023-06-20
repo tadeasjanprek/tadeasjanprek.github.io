@@ -171,7 +171,7 @@ html {
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #0084ff;
     transform: translateX(-50%);
   }
   section .title::after {
@@ -180,7 +180,65 @@ html {
     left: 50%;
     padding: 5px;
     font-size: 20px;
-    color: crimson;
-    background: #fff;
+    color: #2c5dee;
+    background: #111;
     transform: translateX(-50%);
   }
+
+  .skills, .about,
+.contact {
+  background: #111;
+  color: #fff;
+}
+.skills .title::before,
+.contact .title::before {
+  background: #fff;
+}
+
+  .about .title::after {
+    content: "Kdo/co jsem";
+  }
+  
+  .about .about-content .left {
+    width: 45%;
+  }
+  .about .about-content .left img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 40px 0px 40px 0px;
+  }
+  .about .about-content .right {
+    width: 55%;
+  }
+  .about .about-content .right .text {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  .about .about-content .right .text span {
+    color: #0040ff;
+  }
+  .about .about-content .right p {
+    text-align: justify;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+  .about .about-content .right a {
+    display: inline-block;
+    background: #0040ff;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 3px 25px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid #0040ff;
+    transition: all 0.3s ease;
+  }
+  .about .about-content .right a:hover {
+    color: #0040ff;
+    background: none;
+  }
+
+  
